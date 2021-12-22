@@ -5,3 +5,13 @@ textarea{
     margin: 1rem;
     padding: 1rem;
 }
+.output{
+    font-size: larger;
+}
+#txtoutput{
+    border: 1px solid black;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
