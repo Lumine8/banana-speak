@@ -4,7 +4,6 @@ body{
     margin: 0;
     font-family: 'Gloria Hallelujah', cursive;
     color:rgba(95, 91, 91, 0.685);
-
 }
 
 h1{
@@ -36,6 +35,12 @@ textarea{
 }
 #btn-translate{
     margin-left: 10rem;
+    background-color:#F2C94C;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    border-color: #F2C94C;
+    font-size: 1rem;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 .output{
@@ -49,10 +54,28 @@ textarea{
     margin: 0rem 9rem;
     padding: 1rem;
     box-sizing: border-box;
-    min-height: 20vh;
+    min-height: 15vh;
     border-radius: 30px;
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 20px;
     color:black
+}
 
+footer{
+    text-align: center;
+    bottom: 0;
+    color: black;
+}
+footer div{
+    background-color: #F2C94C;
+    padding: 1rem;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    position: fixed;
+    bottom: -15px;
+    margin-top: 2rem;
+}
+
+footer p{
+    padding: 0rem 15rem;
 }
