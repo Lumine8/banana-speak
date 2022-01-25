@@ -24,8 +24,8 @@ textarea{
     width: 80%;
     height: 10vh;
     display: block;
-    margin: 1rem 9rem;
-    padding: 1rem;
+    margin: auto;
+    padding: 1rem 4rem;
     border: 2px solid #F2C94C;
     box-sizing: border-box;
     min-height: 20vh;
@@ -53,7 +53,7 @@ textarea{
     border: 2px solid #F2C94C;
     width: 80%;
     height: 10vh;
-    margin: 0rem 9rem;
+    margin: auto;
     padding: 1rem;
     box-sizing: border-box;
     min-height: 15vh;
@@ -67,17 +67,15 @@ footer{
     text-align: center;
     bottom: 0;
     color: black;
-}
-footer div{
+    width: 100%;
     background-color: #F2C94C;
     padding: 1rem;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     position: fixed;
-    bottom: -15px;
-    margin-top: 2rem;
 }
 
 footer p{
-    padding: 0rem 15rem;
+    margin: auto;
+    max-width: 600px;
 }
